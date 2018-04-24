@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio Website</title>
+<link rel="stylesheet" href="portfolio.css">
+<link rel="stylesheet" href="earthquake.css">
+<link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <h1>App Academy Project</h1>
+    <h2>Earthquake Map</h2>
+    <div id="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="page2.html" class="selected">App Academy Project</a>
+        <a href="page3.html">Non-App Academy Project</a>
+        <a href="page4.html">Resume</a>
+    </div>
+    <p>The project that I chose was the earthquake map, I chose this becuse it was the first website for App Academy that showed a world-wide map of the different magnitude of earthquakes. I chose this project because it was interesting to learn about the different types of earthquakes in the world and places numerous map markers of earthquakes around the map. To create this project I used the API for Google Maps to display the map of the world and the magnitude of each earthquake. This project works by the user clicking the map markers on the page to show the magnitude and the location of the earthquake.</p>
+
+<div class="main">
+  <div id="map"></div>
+</div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="earthquake.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgrwdqrpG2aXQ6cK8aT2-cLJn9IVYRQ8k&callback=initMap"
+async defer></script>
+    
+    <script src="p5.min.js"></script>
+    <script src="earthquake.js"></script>
+    <script src="page2.js"></script>
+</body>
+</html>
