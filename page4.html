@@ -19,7 +19,13 @@
         <a href="page4.html" class="selected">Resume</a>
     </div>
     
-    <iframe id="resume" src="https://docs.google.com/a/pusd.us/document/d/e/2PACX-1vQq7GqdmmLqKBXLyJCV6J282BYIUxZeIsSaLIaewqJ0yY-w47sH6vNYmj5R-rCsgucYHqx-hc3zGw1o/pub?embedded=true" width="800" height="500"></iframe>
+    <div id="resume-container">
+    <object id="resume"  data="resume.pdf" type="application/pdf" width="750px" height="750px">
+        <embed src="resume.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="resume.pdf">Download PDF</a>.</p> </embed>
+    </object>
+    </div>
+
     
     <script src="p5.min.js"></script>
     <script src="page4.js"></script>
